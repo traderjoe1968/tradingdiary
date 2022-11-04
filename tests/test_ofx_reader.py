@@ -14,9 +14,9 @@ import ofxtools
 
 
 # local imports
-from capgains.config import CONFIG
-from capgains import ofx, flex, models
-from capgains.models import (
+from tradingdiary.config import CONFIG
+from tradingdiary import ofx, flex, models
+from tradingdiary.models import (
     Fi,
     FiAccount,
     Security,

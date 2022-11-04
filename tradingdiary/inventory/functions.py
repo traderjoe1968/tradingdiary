@@ -22,7 +22,7 @@ from typing import TYPE_CHECKING, Tuple, List, Iterable, Callable, Optional, Uni
 
 
 # local imports
-from capgains import models, utils
+from tradingdiary import models, utils
 from .types import (
     Lot,
     Gain,

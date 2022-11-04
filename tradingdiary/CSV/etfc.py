@@ -8,9 +8,9 @@ from typing import Tuple, NamedTuple, Any, Callable, Iterable, List, Optional
 
 import sqlalchemy
 
-from capgains import models
-from capgains import ofx, flex
-from capgains.database import Base, sessionmanager
+from tradingdiary import models
+from tradingdiary import ofx, flex
+from tradingdiary.database import Base, sessionmanager
 
 
 class CsvStatement(object):

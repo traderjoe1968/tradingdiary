@@ -9,7 +9,7 @@ from datetime import datetime
 
 
 # local imports
-from capgains.inventory import (
+from tradingdiary.inventory import (
     Trade,
     Lot,
     part_units,

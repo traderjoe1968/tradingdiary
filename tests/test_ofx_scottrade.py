@@ -14,10 +14,10 @@ import ofxtools
 
 
 # local imports
-from capgains import models
-from capgains.config import CONFIG
-from capgains.ofx.scottrade import OfxStatementReader
-from capgains.models import Fi, FiAccount, Security, Transaction, TransactionType
+from tradingdiary import models
+from tradingdiary.config import CONFIG
+from tradingdiary.ofx.scottrade import OfxStatementReader
+from tradingdiary.models import Fi, FiAccount, Security, Transaction, TransactionType
 from common import setUpModule, tearDownModule, RollbackMixin, OfxSnippetMixin
 
 

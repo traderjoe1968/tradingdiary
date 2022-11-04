@@ -10,8 +10,8 @@ import os
 
 import ibflex
 
-from capgains import flex, models
-from capgains.flex import parser
+from tradingdiary import flex, models
+from tradingdiary.flex import parser
 
 from common import setUpModule, tearDownModule, XmlSnippetMixin
 

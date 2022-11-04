@@ -28,11 +28,11 @@ import sqlalchemy
 from ofxtools.utils import validate_cusip, cusip2isin, validate_isin
 import ibflex
 
-from capgains import ofx, models, utils
-from capgains.ofx.reader import SecuritiesMap, Statement
-from capgains.flex import BROKERID, Types, regexes
-from capgains.database import Base, sessionmanager
-from capgains.containers import GroupedList, FirstResult
+from tradingdiary import ofx, models, utils
+from tradingdiary.ofx.reader import SecuritiesMap, Statement
+from tradingdiary.flex import BROKERID, Types, regexes
+from tradingdiary.database import Base, sessionmanager
+from tradingdiary.containers import GroupedList, FirstResult
 
 
 class ParsedCorpAct(NamedTuple):
@@ -1543,7 +1543,7 @@ def apply_reorg_memo_match(
 ###############################################################################
 def main():
     from argparse import ArgumentParser
-    from capgains import flex
+    from tradingdiary import flex
 
     argparser = ArgumentParser(description="Parse Flex Query data")
     argparser.add_argument("file", nargs="+", help="XML file(s)")

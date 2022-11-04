@@ -59,7 +59,7 @@ import tablib
 import sqlalchemy
 
 # local imports
-from capgains import models, inventory, utils, CONFIG
+from tradingdiary import models, inventory, utils, CONFIG
 
 
 class FlatLot(NamedTuple):

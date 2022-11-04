@@ -5,8 +5,8 @@ from . import reader
 
 def read(session, source):
     # Avoid import loop by delaying import until after module initialization
-    from capgains.ofx.reader import OfxStatementReader
-    from capgains.ofx import ibkr, amtd, etfc, scottrade
+    from tradingdiary.ofx.reader import OfxStatementReader
+    from tradingdiary.ofx import ibkr, amtd, etfc, scottrade
 
     dispatcher = {
         ibkr.BROKERID: ibkr.OfxStatementReader,

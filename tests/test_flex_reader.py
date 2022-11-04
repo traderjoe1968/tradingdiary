@@ -9,8 +9,8 @@ import os
 
 import ibflex
 
-from capgains import ofx, flex, models, inventory
-from capgains.config import CONFIG
+from tradingdiary import ofx, flex, models, inventory
+from tradingdiary.config import CONFIG
 
 from common import (  # noqa
     setUpModule,

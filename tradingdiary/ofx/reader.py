@@ -30,9 +30,9 @@ import ofxtools
 
 
 # Local imports
-from capgains import flex, models, utils
-from capgains.containers import GroupedList
-from capgains.database import Base, sessionmanager
+from tradingdiary import flex, models, utils
+from tradingdiary.containers import GroupedList
+from tradingdiary.database import Base, sessionmanager
 
 if TYPE_CHECKING:
     import CSV
@@ -758,7 +758,7 @@ def make_uid(
 ###############################################################################
 def main():
     from argparse import ArgumentParser
-    from capgains.ofx import read
+    from tradingdiary.ofx import read
 
     argparser = ArgumentParser(description="Parse OFX data")
     argparser.add_argument("file", nargs="+", help="OFX file(s)")

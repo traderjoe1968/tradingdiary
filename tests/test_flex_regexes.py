@@ -5,7 +5,7 @@ import os
 
 
 # local imports
-from capgains.flex import regexes
+from tradingdiary.flex import regexes
 
 
 def setUpModule():

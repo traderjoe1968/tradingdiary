@@ -9,8 +9,8 @@ from typing import List, Tuple
 
 import ibflex
 
-from capgains import containers, inventory, models
-from capgains.flex import Types, reader
+from tradingdiary import containers, inventory, models
+from tradingdiary.flex import Types, reader
 from common import setUpModule, tearDownModule, ReadXmlSnippetMixin
 
 

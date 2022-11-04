@@ -1,7 +1,7 @@
 # coding: utf-8
 """ """
 # Local imports
-from capgains.ofx import reader
+from tradingdiary.ofx import reader
 
 
 BROKERID = "etrade.com"

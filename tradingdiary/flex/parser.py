@@ -108,8 +108,8 @@ from typing import Tuple, List, Optional, Union, Iterable, cast
 
 import ibflex
 
-from capgains import utils
-from capgains.flex import BROKERID, Types, regexes
+from tradingdiary import utils
+from tradingdiary.flex import BROKERID, Types, regexes
 
 
 ###############################################################################

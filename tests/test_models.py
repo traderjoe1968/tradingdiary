@@ -6,8 +6,8 @@ import unittest
 
 
 # local imports
-from capgains.config import CONFIG
-from capgains.models import Fi, FiAccount, Security, SecurityId, Transaction
+from tradingdiary.config import CONFIG
+from tradingdiary.models import Fi, FiAccount, Security, SecurityId, Transaction
 from common import setUpModule, tearDownModule, RollbackMixin
 
 

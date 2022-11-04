@@ -27,7 +27,7 @@ from typing import (
 
 
 # local imports
-from capgains import models, inventory, CONFIG
+from tradingdiary import models, inventory, CONFIG
 
 
 PocketType = Tuple[models.FiAccount, models.Security]

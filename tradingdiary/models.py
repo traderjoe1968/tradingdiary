@@ -25,7 +25,7 @@ from ofxtools.models.i18n import CURRENCY_CODES
 
 
 # Local imports
-from capgains.database import Base
+from tradingdiary.database import Base
 
 
 @enum.unique

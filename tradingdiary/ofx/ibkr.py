@@ -8,8 +8,8 @@ from sqlalchemy import create_engine
 
 
 from . import reader
-from capgains.flex.reader import FlexStatementReader
-from capgains.database import Base, sessionmanager
+from tradingdiary.flex.reader import FlexStatementReader
+from tradingdiary.database import Base, sessionmanager
 
 
 BROKERID = "4705"
@@ -60,7 +60,7 @@ class OfxStatementReader(FlexStatementReader):
 ###############################################################################
 def main():
     from argparse import ArgumentParser
-    from capgains.ofx import read
+    from tradingdiary.ofx import read
 
     argparser = ArgumentParser(description="Parse OFX data")
     argparser.add_argument("file", nargs="+", help="OFX file(s)")

@@ -15,8 +15,8 @@ import ofxtools
 
 
 # local imports
-from capgains.config import CONFIG
-from capgains import database, flex, ofx, models
+from tradingdiary.config import CONFIG
+from tradingdiary import database, flex, ofx, models
 
 
 DB_URI = CONFIG.test_db_uri

@@ -72,10 +72,10 @@ import tablib
 
 
 # Local imports
-from capgains import models, flex, ofx, CSV, CONFIG
-from capgains.inventory import report
-from capgains.inventory.api import Portfolio
-from capgains.database import Base, sessionmanager
+from tradingdiary import models, flex, ofx, CSV, CONFIG
+from tradingdiary.inventory import report
+from tradingdiary.inventory.api import Portfolio
+from tradingdiary.database import Base, sessionmanager
 
 
 def create_engine():

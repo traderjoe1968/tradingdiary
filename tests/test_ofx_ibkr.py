@@ -10,9 +10,9 @@ from decimal import Decimal
 
 
 # local imports
-from capgains import models
-from capgains.ofx.ibkr import OfxStatementReader
-from capgains.models import Transaction, TransactionType
+from tradingdiary import models
+from tradingdiary.ofx.ibkr import OfxStatementReader
+from tradingdiary.models import Transaction, TransactionType
 from common import setUpModule, tearDownModule, RollbackMixin, OfxSnippetMixin
 
 

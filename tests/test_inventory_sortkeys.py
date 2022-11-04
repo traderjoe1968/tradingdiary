@@ -9,7 +9,7 @@ from datetime import datetime
 
 
 # local imports
-from capgains.inventory import (
+from tradingdiary.inventory import (
     FIFO,
     LIFO,
     MINGAIN,

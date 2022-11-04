@@ -7,8 +7,8 @@ from decimal import Decimal
 
 
 # local imports
-from capgains import models
-from capgains.inventory import Trade
+from tradingdiary import models
+from tradingdiary.inventory import Trade
 from common import setUpModule, tearDownModule, ReadXmlSnippetMixin
 
 

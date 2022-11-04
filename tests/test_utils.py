@@ -5,7 +5,7 @@ Unit tests for capgains.utils
 import unittest
 import datetime
 
-from capgains import utils
+from tradingdiary import utils
 
 
 class RealizeLongTermTestCase(unittest.TestCase):

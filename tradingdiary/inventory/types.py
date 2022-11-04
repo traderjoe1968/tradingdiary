@@ -43,7 +43,7 @@ from typing import NamedTuple, Tuple, Mapping, Callable, Any, Optional, Union
 
 
 # local imports
-from capgains import models
+from tradingdiary import models
 
 
 class DummyTransaction(NamedTuple):

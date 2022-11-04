@@ -22,8 +22,8 @@ def upgrade():
     op.alter_column("transaction", "unitsFrom", new_column_name="unitsfrom")
     op.alter_column("transaction", "securityFromPrice", new_column_name="securityfromprice")
 
-    op.drop_constraint('transaction_securityFrom_id_fkey', 'transaction', type_='foreignkey')
-    op.drop_constraint('transaction_fiaccountFrom_id_fkey', 'transaction', type_='foreignkey')
+    op.drop_constraint('fk_transaction_securityFrom_id_security', 'transaction', type_='foreignkey')
+    op.drop_constraint('fk_transaction_fiaccount_id_fiaccount', 'transaction', type_='foreignkey')
     op.create_foreign_key('transaction_securityfrom_id_fkey', 'transaction', 'security', ['securityfrom_id'], ['id'], onupdate='CASCADE')
     op.create_foreign_key('transaction_fiaccountfrom_id_fkey', 'transaction', 'fiaccount', ['fiaccountfrom_id'], ['id'], onupdate='CASCADE')
 

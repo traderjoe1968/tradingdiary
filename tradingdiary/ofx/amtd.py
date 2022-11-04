@@ -7,8 +7,8 @@ from typing import List, Callable, Iterable, Any, cast
 import sqlalchemy
 import ofxtools
 
-from capgains import ofx, flex, models
-from capgains.containers import GroupedList
+from tradingdiary import ofx, flex, models
+from tradingdiary.containers import GroupedList
 
 
 BROKERID = "ameritrade.com"

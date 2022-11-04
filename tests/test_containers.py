@@ -9,9 +9,9 @@ from decimal import Decimal
 
 
 # local imports
-from capgains.containers import GroupedList
-from capgains.flex.Types import Trade
-from capgains.ofx.reader import make_canceller
+from tradingdiary.containers import GroupedList
+from tradingdiary.flex.Types import Trade
+from tradingdiary.ofx.reader import make_canceller
 
 
 class GroupedListTestCase(unittest.TestCase):
